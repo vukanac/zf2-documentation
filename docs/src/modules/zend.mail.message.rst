@@ -119,6 +119,8 @@ automatically set a "MIME-Version" header, as well as an appropriate "Content-Ty
    $message = new Message();
    $message->setBody($body);
 
+In addition you can check how to add attachment to your message (`E-mail Attachments <https://github.com/zendframework/zf2-documentation/edit/master/docs/src/modules/zend.mail.attachments.rst>`).
+
 If you want a string representation of your email, you can get that:
 
 .. code-block:: php
